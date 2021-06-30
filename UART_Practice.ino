@@ -4,6 +4,8 @@
  * UART Setup for Arduino Due
  * By Brendan Aguiar
  * Description: This program uses Arduino Due register assignments for communication between the keyboard and serial monitor.
+ * Due Manual: tinyurl.com/55vn5pzb
+ * Processor: ATSAM3X8E
  */
 //UART Register Assignments
 volatile unsigned long* UART_CR = (unsigned long*)0x400E0800; //Control Register (Write-Only)
